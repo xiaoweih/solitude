@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: bluerov2_description
+    relative_path: robots/bluerov2_hdt.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/bluerov2.srdf
+  CONFIG:
+    author_name: Cong Wang
+    author_email: wangcongrobot@gmail.com
+    generated_timestamp: 1589917613

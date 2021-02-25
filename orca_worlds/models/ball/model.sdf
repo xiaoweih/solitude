@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+<model name="ball">
+  <static>false</static>
+  <link name="ball_link">
+
+  <inertial>
+    <mass>1</mass>
+    <pose>0 0 0 0 0 0</pose>
+  </inertial>
+
+  <visual name="ball">
+    <pose>0 0 0 0 0 0</pose>
+    <geometry>
+      <mesh><uri>ball/meshes/ball.dae</uri><scale>1 1 1</scale></mesh>
+    </geometry>
+  </visual>
+
+  <collision name="ball">
+    <pose>0 0 0 0 0 0</pose>
+    <geometry>
+      <mesh><uri>ball/meshes/ball.dae</uri><scale>1 1 1</scale></mesh>
+    </geometry>
+  </collision>
+
+  </link>
+</model>
+</sdf>

@@ -1,0 +1,12 @@
+controller_list:
+  - name: fake_arm_controller
+    joints:
+      - hdt/drive1_joint
+      - hdt/drive2_joint
+      - hdt/drive3_joint
+      - hdt/drive4_joint
+      - hdt/drive5_joint
+      - hdt/drive6_joint
+  - name: fake_hand_controller
+    joints:
+      - hdt/pincer_joint
